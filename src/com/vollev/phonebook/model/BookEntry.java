@@ -1,4 +1,4 @@
-package com.vollev.phonebook.model.BookEntry;
+package com.vollev.phonebook.model;
 
 /**
  * Created by vollev on 11.05.2014.
