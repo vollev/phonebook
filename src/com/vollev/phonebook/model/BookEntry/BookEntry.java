@@ -12,7 +12,7 @@ public class BookEntry { //создаем класс
     }
 
     public void setId(int num) {
-        id = num;               // устанавливаем значение id
+        this.id = num;               // устанавливаем значение id
     }
 
     public String getFirstName() {
@@ -20,7 +20,7 @@ public class BookEntry { //создаем класс
     }
 
     public void setFirstName(String aFirstName) {
-        firstName = aFirstName;                   // устанавливаем значение aFirstName
+        this.firstName = aFirstName;                   // устанавливаем значение aFirstName
     }
 
     public String getLastName() {
@@ -28,7 +28,7 @@ public class BookEntry { //создаем класс
     }
 
     public void setLastName(String aLastName) {
-        lastName = aLastName;
+        this.lastName = aLastName;
     }
 
     public String getPhone() {
@@ -36,7 +36,7 @@ public class BookEntry { //создаем класс
     }
 
     public void setPhone(String aPhone) {
-        phone = aPhone;
+        this.phone = aPhone;
     }
 
 }
