@@ -4,14 +4,14 @@ package com.vollev.phonebook;
  * Created by vollev on 11.05.2014.
  */
 public class PhoneBook { //создаем класс
-    private int number ; // объявление целочисленной переменной number
+    private int id; // объявление целочисленной переменной id
     private String firstName, lastName, phone ; // объявление класса String и его экземпляров
 
-    public int getNumber () {
-        return number;          // значению переменной getNumber возвращаем значение number
+    public int getId() {
+        return id;          // значению переменной getId возвращаем значение id
     }
-    public void setNumber(int num) {
-        number = num;               // устанавливаем значение number
+    public void setId(int num) {
+        id = num;               // устанавливаем значение id
     }
     public String getFirstName() {
         return firstName;         // значению переменной getFirstName возвращаем значение firstName
