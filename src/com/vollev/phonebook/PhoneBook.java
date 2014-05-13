@@ -13,8 +13,8 @@ public class PhoneBook {
         String lastName = in.nextLine();
         System.out.println ("Введите номер телефона");
         String phone = in.nextLine();
-        System.out.println (firstName + lastName + phone);
-
-
+        System.out.print (String.format("First name: '%s'\n",firstName));
+        System.out.print (String.format("Last name: '%s'\n", lastName));
+        System.out.print (String.format("Phone: '%s'\n",phone));
     }
 }
