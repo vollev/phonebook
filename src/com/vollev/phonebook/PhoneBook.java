@@ -15,7 +15,7 @@ public class PhoneBook {
             System.out.println("Введите номер телефона");
             String phone = in.nextLine();
             System.out.print(String.format("First name: '%s'\nLast name: '%s'\nPhone: '%s'\n", firstName, lastName, phone));
-
+        System.out.println("Ещё раз ?");
     }
 
 
