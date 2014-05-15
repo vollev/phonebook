@@ -5,7 +5,7 @@ package com.vollev.phonebook.model;
  */
 public class BookEntry { //создаем класс
     private int id; // объявление целочисленной переменной id
-    private String firstName, lastName, phone; // объявление класса String и его экземпляров
+    private String firstName, lastName, phone, userAnswer; // объявление класса String и его экземпляров
 
     public int getId() {
         return id;          // значению переменной getId возвращаем значение id
@@ -37,6 +37,14 @@ public class BookEntry { //создаем класс
 
     public void setPhone(String aPhone) {
         this.phone = aPhone;
+    }
+
+    public String getUserAnswer() {
+        return userAnswer;
+    }
+
+    public void setUserAnswer(String aUserAnswer) {
+        this.userAnswer = aUserAnswer;
     }
 
 }
