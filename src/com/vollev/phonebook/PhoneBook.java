@@ -7,22 +7,23 @@ import java.util.Scanner; // импортируем класс
  */
 public class PhoneBook {
     Boolean uA;
-    public String s1="Y", userAnswer;
-    do {
-    public static void main(String[] args) {
-       Scanner in = new Scanner(System.in);
-            System.out.println("Введите имя");
-            String firstName = in.nextLine();
-            System.out.println("Введите фамилию");
-            String lastName = in.nextLine();
-            System.out.println("Введите номер телефона");
-            String phone = in.nextLine();
-            System.out.print(String.format("First name: '%s'\nLast name: '%s'\nPhone: '%s'\n", firstName, lastName, phone)); }
-            System.out.println("Ещё раз ? Y/N");
-            String userAnswer = in.nextLine();}
-        while (userAnswer.equals."Y")
+    public String s1="Y";
+    public static void main(String[] args)  { do {
 
-    }
+
+        Scanner in = new Scanner(System.in);
+        System.out.println("Введите имя");
+        String firstName = in.nextLine();
+        System.out.println("Введите фамилию");
+        String lastName = in.nextLine();
+        System.out.println("Введите номер телефона");
+        String phone = in.nextLine();
+        System.out.println(String.format("First name: '%s'\nLast name: '%s'\nPhone: '%s'\n", firstName, lastName, phone));
+        System.out.println("Ещё раз ? Y/N");
+        String userAnswer = in.nextLine();
+    }} while (s1.equals.(userAnswer)
 
 
 }
+
+
