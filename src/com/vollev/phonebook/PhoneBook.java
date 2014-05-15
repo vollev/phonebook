@@ -7,6 +7,7 @@ import java.util.Scanner; // импортируем класс
  */
 public class PhoneBook {
     Boolean uA;
+    public String s1="Y", userAnswer;
     do {
     public static void main(String[] args) {
        Scanner in = new Scanner(System.in);
@@ -19,8 +20,7 @@ public class PhoneBook {
             System.out.print(String.format("First name: '%s'\nLast name: '%s'\nPhone: '%s'\n", firstName, lastName, phone)); }
             System.out.println("Ещё раз ? Y/N");
             String userAnswer = in.nextLine();}
-
-        while (uA)
+        while ((s1.equals.(userAnswer))
 
     }
 
