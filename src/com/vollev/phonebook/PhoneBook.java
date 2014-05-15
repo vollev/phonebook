@@ -20,7 +20,7 @@ public class PhoneBook {
             System.out.print(String.format("First name: '%s'\nLast name: '%s'\nPhone: '%s'\n", firstName, lastName, phone)); }
             System.out.println("Ещё раз ? Y/N");
             String userAnswer = in.nextLine();}
-        while ((s1.equals.(userAnswer))
+        while (userAnswer.equals."Y")
 
     }
 
