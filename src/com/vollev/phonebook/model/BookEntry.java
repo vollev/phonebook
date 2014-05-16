@@ -39,12 +39,12 @@ public class BookEntry { //создаем класс
         this.phone = aPhone;
     }
 
-    public String getUserAnswer() {
-        return userAnswer;
+   // public String getUserAnswer() {
+     //   return userAnswer;
     }
 
-    public void setUserAnswer(String aUserAnswer) {
-        this.userAnswer = aUserAnswer;
-    }
+  //  public void setUserAnswer(String aUserAnswer) {
+      //  this.userAnswer = aUserAnswer;
+    //}
 
-}
+//}

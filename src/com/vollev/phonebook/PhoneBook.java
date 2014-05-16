@@ -11,6 +11,7 @@ public class PhoneBook {
 
     public static void main(String[] args) {
         String s1 = "Y";
+        String userAnswer;
         Boolean uA;
         do {
 
@@ -24,8 +25,8 @@ public class PhoneBook {
             String phone = in.nextLine();
             System.out.println(String.format("First name: '%s'\nLast name: '%s'\nPhone: '%s'\n", firstName, lastName, phone));
             System.out.println("Ещё раз ? Y/N");
-            String userAnswer = in.nextLine();
-        } while (s1.equals.(userAnswer));
+            s1 = in.nextLine();
+        } while (s1.equals("Y"));
     }
 
 
