@@ -37,14 +37,6 @@ public class BookEntry { //создаем класс
 
     public void setPhone(String aPhone) {
         this.phone = aPhone;
-    }
+   }}
 
-   // public String getUserAnswer() {
-     //   return userAnswer;
-    }
-
-  //  public void setUserAnswer(String aUserAnswer) {
-      //  this.userAnswer = aUserAnswer;
-    //}
-
-//}
+//
