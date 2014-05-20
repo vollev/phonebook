@@ -11,9 +11,8 @@ public class PhoneBook {
 
     public static void main(String[] args) {
         String s1 = "Y";
-        String userAnswer;
-        Boolean uA;
-            Scanner in = new Scanner(System.in);
+
+        Scanner in = new Scanner(System.in);
         do {
             System.out.println("Введите имя");
             String firstName = in.nextLine();
@@ -24,7 +23,8 @@ public class PhoneBook {
             System.out.println(String.format("First name: '%s'\nLast name: '%s'\nPhone: '%s'\n", firstName, lastName, phone));
             System.out.println("Ещё раз ? Y/N");
             s1 = in.nextLine();
-        } while ("Y".equals(s1));
+
+        } while ("Y".equalsIgnoreCase(s1));
     }
 
 
