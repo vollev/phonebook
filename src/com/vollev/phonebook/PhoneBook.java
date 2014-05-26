@@ -23,8 +23,12 @@ public class PhoneBook {
             System.out.println(String.format("First name: '%s'\nLast name: '%s'\nPhone: '%s'\n", firstName, lastName, phone));
             System.out.println("Ещё раз ? Y/N");
             s1 = in.nextLine();
-
         } while ("Y".equalsIgnoreCase(s1));
+        if ("n".equalsIgnoreCase(s1));
+        { break;}
+        else
+        {  System.out.println("Не понял");
+            System.out.println("Ещё раз ? Y/N");
     }
 
 
